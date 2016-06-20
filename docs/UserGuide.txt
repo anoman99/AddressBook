@@ -1,0 +1,17 @@
+
+System Requirements
+===================
+	JDK version 8 or higher
+	Maven 3 or greater required for compilation
+	No additional dependency
+
+Compilation
+============
+	mvn compile package
+
+Run
+=============
+Type following command on command line (assumes that the CSV file addressbook.csv is located in the same folder.
+ 
+	java -jar .\target\AddressBook.jar addressbook.csv
+		
